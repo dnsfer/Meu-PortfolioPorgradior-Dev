@@ -1,0 +1,86 @@
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        height: 120px;
+    }
+
+    header .logo-img img {
+        max-width: 100px;
+
+    }
+
+    header .menu-desktop {
+        display: none;
+    }
+
+        header .btn-menu-mob {
+            display: block;
+        }
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    /* FOTO E TEXTO */
+    .home {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    .home-img .img-box {
+        width: 82vw;
+        height: 82.2vw;
+        margin-left: 0px;
+    }
+
+    .interface-home h1 {
+        font-size: 3rem;
+        letter-spacing: .2rem;
+    }
+
+    .interface-home h2 {
+        font-size: 1.7rem;
+    }
+
+    .interface-home h3 {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 5px 15.5px;
+    }
+
+    .interface-home .btn-sci .sci {
+        margin-left: 10px;
+    }
+
+    .resume-container,
+    .portfolio-container,
+    .contato-container {
+        grid-template-columns: 1fr;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .resume-container {
+        grid: 3rem;
+    }
+
+    .portfolio-container .portfolio-box:first-child {
+        order: 1;
+    }
+
+    .contato-box .field-box {
+        grid-template-columns: repeat(2, 1fr);
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
