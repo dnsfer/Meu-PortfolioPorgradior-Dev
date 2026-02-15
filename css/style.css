@@ -603,7 +603,7 @@ section.active {
 }
 
 .resume-detail.skills .resume-item i {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 
@@ -693,6 +693,10 @@ section.active {
 #postgresql:hover {
     color: #336791;
 }
+
+
+
+
 .resume-detail.about .resume-list {
     height: auto;
     margin: 0 auto;
@@ -743,18 +747,18 @@ section.active {
 }
 
 .portfolio-box h3 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin: .8rem 0 2rem;
     color: var(--color-font);
 }
 
 .portfolio h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--color-font);
 }
 
 .portfolio-box p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: var(--color-font);
 }
 
@@ -832,7 +836,10 @@ section.active {
 
 .portfolio-carousel .img-item {
     height: inherit;
+}
 
+.portfolio-carousel .img-item.pricingHSMWhatsApp {
+    height: 80%;
 }
 
 .portfolio-carousel .img-item img {
@@ -969,7 +976,7 @@ section.active {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
