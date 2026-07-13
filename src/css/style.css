@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --bg-colo-principal: #070520;
+    --bg-colo-principal: #080627;
     --bg-color-principal: #0d0d0d;
     --main-color: #00725c;
     --second-bg-color: #303533;
@@ -102,7 +102,7 @@ header.rolar {
 
 header.rolar .menu-desktop nav ul li a {
     color: var(--color-font);
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 header.rolar .menu-desktop nav ul li a:hover {
@@ -116,7 +116,7 @@ header.rolar .logo .logo-img {
 header.rolar .logo .logo-img-preta {
     display: block;
     max-width: 120px;
-    padding: 0 15px;
+    padding: 0 5px;
 
 }
 
@@ -210,19 +210,16 @@ header .btn-menu-mob .line-menumob-2.ativo2{
 header .menu-mobile{
     width: 0%;
     height: 0;
-    background-color: #02020c;
+    background-color: #1b1b1d;
     position: absolute;
     top: 0;
     right: 0;
-
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-
     overflow: hidden;
     transition: .5s;
-    
 }
 
 header .menu-mobile nav ul{
